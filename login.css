@@ -1,0 +1,86 @@
+.home__login {
+    height: 474px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    height: 60%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box1 {
+    height: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+.box2 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo__login {
+    height: 100%;
+    font-size: 1.12rem;
+    font-weight: bold;
+}
+
+.correo__login {
+    width: 96%;
+    height: 25%;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Raleway';
+    color: #a2a2a2;
+    background-color: #FFF;
+    font-size: 1rem;
+    padding-left: 4%;
+}
+
+.contrasena__login {
+    width: 96%;
+    height: 25%;
+    border: none;
+    border-radius: 4px;
+    font-family: 'Raleway';
+    color: #a2a2a2;
+    background-color: #FFF;
+    font-size: 1rem;
+    padding-left: 4%;
+}
+
+.btn__home {
+    width: 100%;
+    height: 30%;
+    color: #FFF;
+    background-color: #2a7ae4;
+    font-size: 1.12rem;
+    font-family: 'Raleway';
+    border: none;
+}
+
+.btn__login {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .login {
+        width: 36%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .login {
+        width: 74%;
+    }
+}

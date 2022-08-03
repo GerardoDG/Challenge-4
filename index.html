@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="displays.css">
+    <link rel="stylesheet" href="login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
@@ -29,320 +31,344 @@
     </header>
 
     <main>
-        <section class="encabezado__gde">
-            <div class="encabezado__btn" id="centrado">
-                <h1 class="titulo__banner">Febrero Promocional</h1>
-                <h2 class="subtitulo__banner">Productos selecionados con 33% de descuento</h2>
-                <input type="button" class="btn__banner" value="Ver consolas">
-            </div>
-        </section>
-        <section class="encabezado__med">
-            <div class="encabezado__btn" id="centrado">
-                <h1 class="titulo__banner">Febrero Promocional</h1>
-                <h2 class="subtitulo__banner">Productos selecionados con 33% de descuento</h2>
-                <input type="button" class="btn__banner" value="Ver consolas">
-            </div>
-        </section>
-        <section class="encabezado__ch">
-            <div class="encabezado__btn" id="centrado">
-                <h1 class="titulo__banner">Febrero Promocional</h1>
-                <h2 class="subtitulo__banner">Productos selecionados con 33% de descuento</h2>
-                <input type="button" class="btn__banner" value="Ver consolas">
-            </div>
-        </section>
-        <section class="productos" id="centrado">
-            <div class="caja__productos">
-                <div class="prod__encabezados">
-                    <div class="titulo">
-                        <h2 class="titular__productos">Star Wars</h2>
+        <div class="tudo">
+            <section class="encabezado__gde">
+                <div class="encabezado__btn" id="centrado">
+                    <h1 class="titulo__banner">Febrero Promocional</h1>
+                    <h2 class="subtitulo__banner">Productos selecionados con 33% de descuento</h2>
+                    <input type="button" class="btn__banner" value="Ver consolas">
+                </div>
+            </section>
+            <section class="encabezado__med">
+                <div class="encabezado__btn" id="centrado">
+                    <h1 class="titulo__banner">Febrero Promocional</h1>
+                    <h2 class="subtitulo__banner">Productos selecionados con 33% de descuento</h2>
+                    <input type="button" class="btn__banner" value="Ver consolas">
+                </div>
+            </section>
+            <section class="encabezado__ch">
+                <div class="encabezado__btn" id="centrado">
+                    <h1 class="titulo__banner">Febrero Promocional</h1>
+                    <h2 class="subtitulo__banner">Productos selecionados con 33% de descuento</h2>
+                    <input type="button" class="btn__banner" value="Ver consolas">
+                </div>
+            </section>
+            <section class="productos" id="centrado">
+                <div class="caja__productos">
+                    <div class="prod__encabezados">
+                        <div class="titulo">
+                            <h2 class="titular__productos">Star Wars</h2>
+                        </div>
+                        <div class="fin__encabezado">
+                            <h4>Ver todo</h4>
+                            <img class="flecha__todo" src="img/Vector.png">
+                        </div>
                     </div>
-                    <div class="fin__encabezado">
-                        <h4>Ver todo</h4>
-                        <img class="flecha__todo" src="img/Vector.png">
+                    <div class="conjunto__cajas">
+                        <div class="caja">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/1.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Producto XYZ</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="caja">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/2.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Producto XYZ</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="caja">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/3.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Producto XYZ</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="caja">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/4.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Producto XYZ</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="caja" id="oculto">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/5.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Producto XYZ</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="caja" id="oculto">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/6.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Producto XYZ</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="conjunto__cajas">
-                    <div class="caja">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/1.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Producto XYZ</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
+                <div class="caja__productos">
+                    <div class="prod__encabezados">
+                        <div class="titulo">
+                            <h2 class="titular__productos">Consolas</h2>
+                        </div>
+                        <div class="fin__encabezado">
+                            <h4>Ver todo</h4>
+                            <img class="flecha__todo" src="img/Vector.png">
+                        </div>
                     </div>
-                    <div class="caja">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/2.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Producto XYZ</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="caja">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/3.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Producto XYZ</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="caja">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/4.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Producto XYZ</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="caja" id="oculto">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/5.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Producto XYZ</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="caja" id="oculto">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/6.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Producto XYZ</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
+                    <div class="conjunto__cajas">
+                        <div class="caja">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/7.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Control XYZ</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="caja">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/8.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Control y consola XYZ</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="caja">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/9.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Consola XYZ</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="caja">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/10.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Control XYZ</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="caja" id="oculto">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/11.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Consola XYZ</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="caja" id="oculto">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/12.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Game Boy Color</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                <div class="caja__productos">
+                    <div class="prod__encabezados">
+                        <div class="titulo">
+                            <h2 class="titular__productos">Diversos</h2>
+                        </div>
+                        <div class="fin__encabezado">
+                            <h4>Ver todo</h4>
+                            <img class="flecha__todo" src="img/Vector.png">
+                        </div>
+                    </div>
+                    <div class="conjunto__cajas">
+                        <div class="caja">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/13.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Camisa Atari</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="caja">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/14.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Camisa SNES</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="caja">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/14.2.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Control y consola XYZ</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="caja">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/15.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Control y consola XYZ</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="caja" id="oculto">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/16.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Control y consola XYZ</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="caja" id="oculto">
+                            <ul class="lista_productos">
+                                <li class="imagen"><img class="imagenprod" src="img/17.png"></li>
+                                <li class="titulo__imagen">
+                                    <p>Producto XYZ</p>
+                                </li>
+                                <li class="costo">
+                                    <p>$ 60,00</p>
+                                </li>
+                                <li class="link__producto">
+                                    <h4>Ver producto</h4>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="home__login">
+            <div class="login">
+                <div class="box1">
+                    <h2 class="titulo__login">Iniciar Sesión</h2>
+                </div>
+                <div class="box2">
+                    <input type="email" placeholder="Escriba su correo electrónico" class="correo__login">
+                    <input type="password" placeholder="Escriba su contraseña" class="contrasena__login">
+                    <input type="button" class="btn__home" value="Entrar">
+                </div>
+
+
             </div>
-            <div class="caja__productos">
-                <div class="prod__encabezados">
-                    <div class="titulo">
-                        <h2 class="titular__productos">Consolas</h2>
-                    </div>
-                    <div class="fin__encabezado">
-                        <h4>Ver todo</h4>
-                        <img class="flecha__todo" src="img/Vector.png">
-                    </div>
-                </div>
-                <div class="conjunto__cajas">
-                    <div class="caja">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/7.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Control XYZ</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="caja">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/8.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Control y consola XYZ</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="caja">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/9.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Consola XYZ</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="caja">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/10.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Control XYZ</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="caja" id="oculto">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/11.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Consola XYZ</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="caja" id="oculto">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/12.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Game Boy Color</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="caja__productos">
-                <div class="prod__encabezados">
-                    <div class="titulo">
-                        <h2 class="titular__productos">Diversos</h2>
-                    </div>
-                    <div class="fin__encabezado">
-                        <h4>Ver todo</h4>
-                        <img class="flecha__todo" src="img/Vector.png">
-                    </div>
-                </div>
-                <div class="conjunto__cajas">
-                    <div class="caja">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/13.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Camisa Atari</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="caja">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/14.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Camisa SNES</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="caja">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/14.2.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Control y consola XYZ</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="caja">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/15.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Control y consola XYZ</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="caja" id="oculto">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/16.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Control y consola XYZ</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="caja" id="oculto">
-                        <ul class="lista_productos">
-                            <li class="imagen"><img class="imagenprod" src="img/17.png"></li>
-                            <li class="titulo__imagen">
-                                <p>Producto XYZ</p>
-                            </li>
-                            <li class="costo">
-                                <p>$ 60,00</p>
-                            </li>
-                            <li class="link__producto">
-                                <h4>Ver producto</h4>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
+        <div class="productos">
+
+        </div>
+        <div class="productos__admin">
+
+        </div>
+
+
     </main>
 
     <footer>
