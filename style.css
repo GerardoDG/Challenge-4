@@ -1,22 +1,420 @@
 :root {}
 
-@media (min-width: 768px) {
-    /* Menú */
-    /*title*/
-    /*Skills*/
-    /*Hobbies*/
-    /*Formación Académica*/
-    /*Experiencia Profesional*/
+body {
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    font-family: 'Raleway';
+    color: #464646;
 }
 
-@media (min-width: 425px) {
-    /*Menu*/
-    /*Titulo*/
-    /*Sección sobre mi*/
-    /*Skills*/
-    /*Hobbies*/
-    /*Formación Académica*/
-    /*Experiencia Profesional*/
-    /*Contacto*/
-    /*Footer*/
+h4 {
+    font-size: 1rem;
+    color: #2A7AE4;
+    font-weight: bold;
+}
+
+#centrado {
+    width: 80%;
+    padding: 2rem 10%;
+}
+
+.nav__total {
+    background: #fff;
+}
+
+.navegador {
+    display: flex;
+    align-items: center;
+}
+
+.navegador__logo {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.navegador__btn {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.busqueda {
+    border: none;
+    border-radius: 20px;
+    width: 393px;
+    height: 40px;
+    font-size: 14px;
+    font-family: 'Raleway';
+    background: #F5F5F5;
+    padding: .75rem 1rem;
+    color: #a2a2a2;
+    margin-left: 2rem;
+}
+
+.btn__login {
+    height: 51px;
+    width: 182px;
+    background: none;
+    font-size: 1rem;
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: #2A7AE4;
+    border-color: #2A7AE4;
+    border-radius: 2px;
+    border-width: 2px;
+}
+
+.lupa {
+    display: none;
+}
+
+.encabezado__gde {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/Hero.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-color: black;
+    height: 352px;
+    width: 100%;
+}
+
+.encabezado__med {
+    display: none;
+}
+
+.encabezado__ch {
+    display: none;
+}
+
+.encabezado__btn {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.titulo__banner {
+    font-size: 3.25rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.subtitulo__banner {
+    font-size: 1.37rem;
+    color: #fff;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.btn__banner {
+    width: 129px;
+    height: 51px;
+    color: #fff;
+    background-color: #2A7AE4;
+    font-family: 'Raleway';
+    font-size: 1rem;
+    border: none;
+}
+
+.caja__productos {
+    padding: 2rem 0;
+}
+
+.fin__encabezado {
+    display: flex;
+}
+
+.conjunto__cajas {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.fondo__final {
+    background-color: #eaf2fd;
+}
+
+.footer__final {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.pie__pagina__contacto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prod__encabezados {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.titular__productos {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.flecha__todo {
+    margin-left: .75rem;
+}
+
+.titulo {
+    width: 50%;
+}
+
+.fin__encabezado {
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.costo {
+    font-weight: bold;
+    margin: .5rem 0;
+}
+
+.titulo__imagen {
+    margin: .5rem 0;
+}
+
+.contacto__form {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.footer__conjunto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__texto {
+    font-size: 1rem;
+}
+
+.titulo__form {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#nombre__contacto {
+    height: 56px;
+    width: 560px;
+    margin: .5rem 0 0 0;
+    border: none;
+    padding: 0 0 0 .75rem;
+}
+
+#mensaje__contacto {
+    width: 560px;
+    height: 82px;
+    margin: 1rem 0 .5rem 0;
+    border: none;
+    resize: none;
+    font-family: 'Raleway';
+    padding: 1rem 0 0 .75rem;
+}
+
+.btn__contacto {
+    width: 144px;
+    height: 51px;
+    color: #fff;
+    background-color: #2A7AE4;
+    font-size: 1rem;
+    font-family: 'Raleway';
+    border: none;
+}
+
+.conjunto__footer {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (max-width: 1400px) {
+    #oculto {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    #centrado {
+        width: 90%;
+        padding: 2rem 5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .busqueda {
+        width: 272px;
+    }
+    .navegador__logo {
+        width: 70%;
+    }
+    .navegador__btn {
+        width: 30%;
+    }
+    .titular__productos {
+        font-size: 1.37rem;
+    }
+    .titulo__imagen {
+        font-size: .87rem;
+    }
+    .imagenprod {
+        width: 164px;
+    }
+    .encabezado__med {
+        display: flex;
+        background-image: url(img/Hero\ \(1\).png);
+        flex-direction: column;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-color: black;
+        height: 352px;
+        width: 100%;
+    }
+    .encabezado__gde {
+        display: none;
+    }
+    .encabezado__ch {
+        display: none;
+    }
+    .btn__banner {
+        width: 118px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .logo {
+        height: 28px;
+        width: 100px;
+    }
+    .conjunto__footer {
+        flex-direction: column;
+        width: 30%;
+    }
+    .contacto__form {
+        width: 70%;
+        margin-left: 3rem;
+    }
+    .img__footer {
+        height: 25%;
+    }
+    .footer__conjunto {
+        margin-left: 0;
+        height: 75%;
+    }
+    #nombre__contacto {
+        width: 434px;
+    }
+    #mensaje__contacto {
+        width: 434px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #centrado {
+        padding: 1rem 5%;
+    }
+    .btn__login {
+        width: 133px;
+        height: 40px;
+        font-size: .87rem;
+    }
+    .navegador__logo {
+        width: 40%;
+    }
+    .navegador__btn {
+        width: 60%;
+    }
+    .busqueda {
+        display: none;
+    }
+    .encabezado__ch {
+        display: flex;
+        background-image: url(img/Hero3.png);
+        flex-direction: column;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: inherit;
+        background-color: black;
+        height: 192px;
+        width: 100%;
+    }
+    .encabezado__gde {
+        display: none;
+    }
+    .encabezado__med {
+        display: none;
+    }
+    .titulo__banner {
+        font-size: 22px;
+    }
+    .subtitulo__banner {
+        font-size: 14px;
+        font-weight: 400;
+        margin: .5rem 0;
+    }
+    .navegador__btn {
+        justify-content: space-between;
+    }
+    .lupa {
+        display: flex;
+    }
+    .caja {
+        width: 46%;
+    }
+    .conjunto__cajas {
+        flex-wrap: wrap;
+    }
+    .imagenprod {
+        width: 156px;
+    }
+    .caja__productos {
+        padding: 0 0 1rem 0;
+    }
+    .pie__pagina__contacto {
+        flex-direction: column;
+    }
+    #nombre__contacto {
+        width: 328px;
+    }
+    #mensaje__contacto {
+        width: 328px;
+    }
+    .contacto__form {
+        margin-left: 0;
+    }
+    .btn__contacto {
+        width: 133px;
+        height: 40px;
+        font-size: .75rem;
+    }
+    .ultimate {
+        padding: 1rem 0;
+    }
+    .conjunto__footer {
+        width: 100%;
+        align-items: center;
+        height: 260px;
+    }
+    .contacto__form {
+        width: 100%;
+        margin-top: 2rem;
+    }
 }
