@@ -1,0 +1,77 @@
+.productos__total {
+    display: flex;
+    flex-direction: column;
+}
+
+.productos__titular {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.productos__titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 50%;
+}
+
+.productos__btn {
+    width: 163px;
+    height: 51px;
+    border: none;
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 1rem;
+    background-color: #2a7ae4;
+    font-weight: 400;
+}
+
+.conjunto__cajas {
+    flex-wrap: wrap;
+    font-size: .87rem;
+}
+
+.productos__fila {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.caja {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+#oculto {
+    display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+    .productos__titulo {
+        font-size: 1.37rem;
+    }
+    #centrado {
+        width: 91.6%;
+        padding: 2rem 4.2%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .productos__titular {
+        display: inline-block;
+    }
+    .productos__titulo {
+        width: 100%;
+        margin: 1rem 0;
+    }
+    .fin {
+        justify-content: flex-end;
+    }
+    .navegador {
+        justify-content: space-between;
+    }
+}

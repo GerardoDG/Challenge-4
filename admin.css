@@ -1,0 +1,123 @@
+.nav1 {
+    width: 50%;
+}
+
+.nav2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navegador {
+    justify-content: space-between;
+}
+
+.navegador__logo {
+    width: 100%;
+}
+
+.navegador__btn {
+    width: 100%;
+}
+
+.menu__admin__producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    width: 60%;
+}
+
+.menu__admin__titulo {
+    width: 100%;
+    border: none;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.menu__admin__form {
+    width: 98%;
+    border: none;
+    height: 56px;
+    margin: .5rem 0;
+    font-size: .75rem;
+    font-family: 'Raleway';
+    color: #a2a2a2;
+    padding-left: .75rem;
+}
+
+.menu__admin__descripcion {
+    width: 98%;
+    border: none;
+    height: 82px;
+    margin: .5rem 0;
+    font-size: 1rem;
+    font-family: 'Raleway';
+    color: #a2a2a2;
+    padding-left: .75rem;
+    padding-top: 1rem;
+}
+
+.menu__admin__btn {
+    width: 100%;
+    border: none;
+    height: 51px;
+    margin-top: .5rem;
+    font-size: 1rem;
+    font-family: 'Raleway';
+    color: white;
+    background-color: #2a7ae4;
+}
+
+.btn__admon {
+    height: 51px;
+    width: 182px;
+    background: none;
+    font-size: 1rem;
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: #2A7AE4;
+    border-color: #2A7AE4;
+    border-radius: 2px;
+    border-width: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+    .menu__admin__producto {
+        width: 100%;
+        margin: 0;
+    }
+    .menu__admin__titulo {
+        font-size: 1.37rem;
+    }
+    .btn__admon {
+        width: 144px;
+        height: 40px;
+        font-size: .87rem;
+    }
+    .nav1 {
+        width: 70%;
+    }
+    .nav2 {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #centrado {
+        padding: 1rem 4.2%;
+    }
+    .btn__admon {
+        width: 166px;
+        height: 40px;
+        font-size: .75rem;
+    }
+    .nav1 {
+        width: 30%;
+    }
+    .nav2 {
+        width: 48%;
+    }
+}

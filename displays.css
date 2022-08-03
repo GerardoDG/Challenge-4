@@ -1,5 +1,9 @@
 .tudo {
-    display: none;
+    display: flex;
+}
+
+.home__login {
+    display: none !important;
 }
 
 .productos {
