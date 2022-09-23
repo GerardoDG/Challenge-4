@@ -11,6 +11,16 @@ h4 {
     font-weight: bold;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.imagenprod {
+    width: 176px;
+    height: 174px;
+}
+
 #centrado {
     width: 80%;
     padding: 2rem 10%;
@@ -289,27 +299,6 @@ h4 {
     .titulo__imagen {
         font-size: .87rem;
     }
-    .imagenprod {
-        width: 164px;
-    }
-    .encabezado__med {
-        display: flex;
-        background-image: url(img/Hero\ \(1\).png);
-        flex-direction: column;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: inherit;
-        background-color: black;
-        height: 352px;
-        width: 100%;
-    }
-    .encabezado__gde {
-        display: none;
-    }
-    .encabezado__ch {
-        display: none;
-    }
     .btn__banner {
         width: 118px;
         height: 40px;
@@ -352,24 +341,6 @@ h4 {
         width: 40%;
     }
     .busqueda {
-        display: none;
-    }
-    .encabezado__ch {
-        display: flex;
-        background-image: url(img/Hero3.png);
-        flex-direction: column;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: inherit;
-        background-color: black;
-        height: 192px;
-        width: 100%;
-    }
-    .encabezado__gde {
-        display: none;
-    }
-    .encabezado__med {
         display: none;
     }
     .titulo__banner {
