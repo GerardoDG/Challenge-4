@@ -79,7 +79,7 @@ h4 {
 .encabezado__gde {
     display: flex;
     flex-direction: column;
-    background-image: url(img/Hero.png);
+    background-image: url(../img/Hero.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
